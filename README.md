@@ -18,18 +18,6 @@ Run file
 node index (options)
 ```
 
-To create a symlink to run "passgen" from anywhere
-
-```
-npm link
-
-# Now you can run
-passgen (options)
-
-# To remove symlink
-npm unlink
-```
-
 ## Options
 
 | Short | Long              | Description                     |
@@ -40,3 +28,4 @@ npm unlink
 | -ns   | --no-symbols      | remove symbols                  |
 | -h    | --help            | display help for command        |
 | -V    | --version         | Show the version                |
+
