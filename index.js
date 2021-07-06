@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const program = require('commander');
 const chalk = require('chalk');
 const clipboardy = require('clipboardy');
@@ -32,4 +33,5 @@ if (save) {
 clipboardy.writeSync(generatedPassword);
 
 log(chalk.blue('Generated Password: ') + chalk.bold(generatedPassword));
+log('----------------------------');
 log(chalk.yellow('\nPassword copied to clipboard'));
